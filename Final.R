@@ -843,7 +843,7 @@ match(max(stratNos),stratNos)
 
 for(y in 1:4)
 {  
-  for(k in 4:5)
+  for(k in 1:5)
   {  
     for(p in 1:5)
     { 
