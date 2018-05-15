@@ -1,5 +1,8 @@
 ##Kovlin Perumal
+##Contact: <kovlinpermal@gmail.com>
 ##Systematic Testing of Systematic Trading Strategies
+##This code was written for the research paper, Systematic Testing of Systematic Trading Strategies.
+##Code not referenced was written completely by myself and I take full responsibility for any errors made.
 
 ##Preamble------------------------------------------------------------
 
