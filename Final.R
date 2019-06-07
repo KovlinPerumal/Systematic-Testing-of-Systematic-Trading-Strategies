@@ -898,8 +898,8 @@ for(y in 1:4)
             maxReturnsSim[,j] <- returnsSim
             
             
-            monthlyReturns[,j] = GetMonthlyReturns(100,stratLength[y],maxReturnsSim,stratMatrix[,j])
-            meanExpectedReturns[j] = GetExpectedReturns(100,stratLength[y],maxReturnsSim,pSuccess[p])
+            monthlyReturns[,j] = GetMonthlyReturns(100,stratLength[y],maxReturnsSim[,j],stratMatrix[,j])
+            meanExpectedReturns[j] = GetExpectedReturns(100,stratLength[y],maxReturnsSim[,j],pSuccess[p])
             
             dmBias[j] = GetDMB(stratNos[k],maxStratReturns[j],meanExpectedReturns[j])
           
